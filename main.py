@@ -13,3 +13,6 @@ from time import sleep
 import keyboard
 import pyautogui as pag
 import os
+
+## the main import lol
+import requests 
