@@ -47,3 +47,17 @@ print("""
 ## background color is black(0) and the text is green(A)
 os.system('color 0A') 
 
+
+
+##TypeWriter effect
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.2)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type("Welcome To SocialBrute \n")
+
+## new linee
+print("\n")
+
