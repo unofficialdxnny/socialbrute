@@ -42,3 +42,8 @@ print("""
 
 
 """)
+
+
+## background color is black(0) and the text is green(A)
+os.system('color 0A') 
+
