@@ -84,3 +84,5 @@ type('Bruteforce started today at \n')
 print("\n")
 print("\n")
 
+## print the final time
+print(d2)
