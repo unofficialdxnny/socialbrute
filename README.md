@@ -12,6 +12,11 @@
 
 ----
 
+### ToDo
+
+- Add a infinite password generator soon which will keep generating passwords till the correct one is found
+- A physical automated version so you can see exactly what the program is doing
+
 ### Images
 
 <p align="center">
