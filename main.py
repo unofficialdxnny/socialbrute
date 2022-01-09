@@ -61,3 +61,10 @@ type("Welcome To SocialBrute \n")
 ## new linee
 print("\n")
 
+
+
+## Gets system time
+today = date.today()
+
+## date format
+d2 = today.strftime("%B %d, %Y")
