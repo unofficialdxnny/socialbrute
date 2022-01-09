@@ -68,3 +68,19 @@ today = date.today()
 
 ## date format
 d2 = today.strftime("%B %d, %Y")
+
+
+
+## typewriter effect
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.2)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type('Bruteforce started today at \n')
+
+## 2 new lines 
+print("\n")
+print("\n")
+
