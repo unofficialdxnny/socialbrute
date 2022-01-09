@@ -16,3 +16,7 @@ import os
 
 ## the main import lol
 import requests 
+
+
+## when the program starts it clears the terminal
+os.system('cls')
