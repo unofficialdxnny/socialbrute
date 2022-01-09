@@ -34,3 +34,19 @@ print("\n")
 today = date.today()
 
 d2 = today.strftime("%B %d, %Y")
+
+
+
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.2)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type('Bruteforce started today at \n')
+
+print("\n")
+print("\n")
+
+print(d2)
+
