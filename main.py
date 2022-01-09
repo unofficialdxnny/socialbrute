@@ -7,3 +7,12 @@ from time import sleep
 import keyboard
 import pyautogui as pag
 import os
+
+
+os.system('cls')
+
+
+
+
+
+os.system('color 0A') 
