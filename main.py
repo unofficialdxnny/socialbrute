@@ -28,3 +28,9 @@ def type(text):
 type("Welcome To SocialBrute \n")
 
 print("\n")
+
+
+
+today = date.today()
+
+d2 = today.strftime("%B %d, %Y")
