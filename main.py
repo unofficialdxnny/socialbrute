@@ -88,3 +88,9 @@ print("\n")
 print(d2)
 
 
+
+
+ ## final section of the code
+  
+  
+  url = input("Enter the URL of the site")
