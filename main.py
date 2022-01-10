@@ -1,4 +1,3 @@
-
 ## Python bruteforce attacker
 ## By @unofficialdxnny
 
@@ -13,18 +12,15 @@ from time import sleep
 import keyboard
 import pyautogui as pag
 import os
-
-## the main import lol
 import requests 
+import webbrowser
+
 
 
 ## when the program starts it clears the terminal
 os.system('cls')
 
 
-
-
-## banner (need a better one)
 print("""
 
 
@@ -43,23 +39,41 @@ print("""
 
 """)
 
-
 ## background color is black(0) and the text is green(A)
+os.system('color 0b') 
 os.system('color 0A') 
-
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
 
 
 ##TypeWriter effect
 def type(text):
   words = text
   for char in words:
-    sleep(0.2)
+    sleep(0.1)
     sys.stdout.write(char)
     sys.stdout.flush()
 type("Welcome To SocialBrute \n")
 
 ## new linee
 print("\n")
+
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
 
 
 
@@ -70,27 +84,58 @@ today = date.today()
 d2 = today.strftime("%B %d, %Y")
 
 
-
 ## typewriter effect
 def type(text):
   words = text
   for char in words:
-    sleep(0.2)
+    sleep(0.1)
     sys.stdout.write(char)
     sys.stdout.flush()
-type('Bruteforce started today at \n')
+type('Bruteforce started today at ')
 
-## 2 new lines 
-print("\n")
-print("\n")
 
 ## print the final time
 print(d2)
 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
 
 
+### Final code that does the bruteforcing
+url = input("Enter Target Url: ")
 
- ## final section of the code
-  
-  
-  url = input("Enter the URL of the site")
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+
+username = input("Enter the username of victim: ")
+
+
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+os.system('color 0b') 
+os.system('color 0A') 
+
+
+webbrowser.open(url)
