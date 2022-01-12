@@ -182,9 +182,32 @@ type("Press Enter when your mouse is over the username/email area \n")
 if keyboard.read_key() == "enter":
   usernamebar = pag.position()
   print(f"Cords captured: {usernamebar}")
-  time.sleep(1)
+  time.sleep(2)
 
   
   
   
+## typewriter effect
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.1)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type("Press Enter when your mouse is over the password area \n")
+
+
+
+
+if keyboard.read_key() == "enter":
+  passwordbar = pag.position()
+    print(f"Cords captured: {passwordbar}")
+  time.sleep(2)
+
+  
+  
+  
+
+
+
  
