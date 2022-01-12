@@ -103,7 +103,7 @@ os.system('color 0A')
 
 print("\n")
 ### Final code that does the bruteforcing
-url = input("Enter Site lofin Url: ")
+url = input("Enter Site login Url: ")
 
 os.system('color 0b') 
 os.system('color 0A') 
@@ -202,7 +202,7 @@ type("Press Enter when your mouse is over the password area \n")
 
 if keyboard.read_key() == "enter":
   passwordbar = pag.position()
-    print(f"Cords captured: {passwordbar}")
+  print(f"Cords captured: {passwordbar}")
   time.sleep(10)
 
   
@@ -236,7 +236,29 @@ def countdown(t):
 # input time in seconds
 t = input("Enter the time in which you want to start the program: ")
 
+
+
+
 # function call
 countdown(int(t))
 
  
+
+ ## Gets system time
+today = date.today()
+
+## date format
+d2d = today.strftime("%B %d, %Y")
+
+## typewriter effect
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.1)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type('Successfully started today @ ')
+
+
+## print the final time
+print(d2d)
