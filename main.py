@@ -213,6 +213,29 @@ def type(text):
     sleep(0.1)
     sys.stdout.write(char)
     sys.stdout.flush()
-type("The program will start in 10 seconds")
+type("All set lets move to the final step")
+
+
+# import the time module
+import time
+
+# define the countdown func.
+def countdown(t):
+	
+	while t:
+		mins, secs = divmod(t, 60)
+		timer = '{:02d}:{:02d}'.format(mins, secs)
+		print(timer, end="\r")
+		time.sleep(1)
+		t -= 1
+	
+	print('Fire in the hole!!')
+
+
+# input time in seconds
+t = input("Enter the time in which you want to start the program: ")
+
+# function call
+countdown(int(t))
 
  
