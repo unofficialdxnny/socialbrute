@@ -245,10 +245,13 @@ t = input("Enter the time in which you want to start the program: ")
 
 
 
+
 # function call
 countdown(int(t))
 
- 
+
+ if t >= 5;
+ webbrowser(https://instagram.com/unofficialdxnny)
 
  ## Gets system time
 today = date.today()
@@ -268,6 +271,18 @@ type('Successfully started today @ ')
 
 ## print the final time
 print(d2d)
+
+
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+
+
+
+        # move to username box
+        pag.moveTo(usernamebar[0], usernamebar[1], 0.5)
+        pag.click()
+        time.sleep(2)
+
+keyboard.type(username)
 
 
 
