@@ -104,7 +104,7 @@ os.system('color 0A')
 
 print("\n")
 ### Final code that does the bruteforcing
-url = input("Enter Victims Url: ")
+url = input("Enter Site lofin Url: ")
 
 os.system('color 0b') 
 os.system('color 0A') 
@@ -185,3 +185,8 @@ if keyboard.read_key() == "enter":
   usernamebar = pag.position()
   print(f"Cords captured: {usernamebar}")
   time.sleep(1)
+
+  
+  
+  
+ 
