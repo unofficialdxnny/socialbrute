@@ -223,35 +223,7 @@ def type(text):
 type("All set lets move to the final step")
 
 
-# import the time module
-import time
 
-# define the countdown func.
-def countdown(t):
-	
-	while t:
-		mins, secs = divmod(t, 60)
-		timer = '{:02d}:{:02d}'.format(mins, secs)
-		print(timer, end="\r")
-		time.sleep(1)
-		t -= 1
-	
-	print('Fire in the hole!!')
-
-
-# input time in seconds
-t = input("Enter the time in which you want to start the program: ")
-
-
-
-
-
-# function call
-countdown(int(t))
-
-
- if t >= 5;
- webbrowser(https://instagram.com/unofficialdxnny)
 
  ## Gets system time
 today = date.today()
@@ -278,11 +250,11 @@ chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
 
 
         # move to username box
-        pag.moveTo(usernamebar[0], usernamebar[1], 0.5)
-        pag.click()
-        time.sleep(2)
+pag.moveTo(usernamebar[0], usernamebar[1], 0.5)
+pag.click()
+time.sleep(2)
 
-keyboard.type(username)
+keyboard.send()
 
 
 
