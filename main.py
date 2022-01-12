@@ -84,7 +84,7 @@ def type(text):
     sleep(0.1)
     sys.stdout.write(char)
     sys.stdout.flush()
-type('Bruteforce started today at ')
+type('Program launched successfully today @ ')
 
 
 ## print the final time
