@@ -202,12 +202,17 @@ type("Press Enter when your mouse is over the password area \n")
 if keyboard.read_key() == "enter":
   passwordbar = pag.position()
     print(f"Cords captured: {passwordbar}")
-  time.sleep(2)
+  time.sleep(10)
 
   
   
-  
-
-
+## typewriter effect
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.1)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type("The program will start in 10 seconds")
 
  
