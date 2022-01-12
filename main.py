@@ -15,6 +15,8 @@ import os
 import requests 
 import webbrowser
 import time
+import string
+import random
 
 
 ## when the program starts it clears the terminal
@@ -212,7 +214,9 @@ if keyboard.read_key() == "enter":
   time.sleep(5)
 
   
-  
+os.system("taskkill /im chrome.exe /f")
+
+
 ## typewriter effect
 def type(text):
   words = text
@@ -222,6 +226,7 @@ def type(text):
     sys.stdout.flush()
 type("All set lets move to the final step")
 
+print("\n")
 
 
 
@@ -244,8 +249,13 @@ type('Successfully started today @ ')
 ## print the final time
 print(d2d)
 
+##open the url again
+webdriver.open(url)
+
 
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+
+
 
 
 
@@ -255,7 +265,15 @@ pag.click()
 time.sleep(2)
 
 
+
+
 keyboard.write(username)
 
+        # move to password box
+pag.moveTo(passwordbar[0], passwordbar[1], 0.5)
+pag.click()
+time.sleep(2)
 
-
+with open(passwords.txt, 'r', encoding='UTF-8') as file:
+    while (line := file.readline().rstrip()):
+        print(line)
