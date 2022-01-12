@@ -209,7 +209,7 @@ type("Press Enter when your mouse is over the password area \n")
 if keyboard.read_key() == "enter":
   passwordbar = pag.position()
   print(f"Cords captured: {passwordbar}")
-  time.sleep(10)
+  time.sleep(5)
 
   
   
@@ -254,7 +254,8 @@ pag.moveTo(usernamebar[0], usernamebar[1], 0.5)
 pag.click()
 time.sleep(2)
 
-keyboard.send()
+
+keyboard.write(username)
 
 
 
