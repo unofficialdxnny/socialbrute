@@ -23,6 +23,7 @@
 - keyboard
 - pyautogui 
 - os
+- requests 
 
 
 
