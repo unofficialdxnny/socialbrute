@@ -8,3 +8,5 @@
 - `Clone the repository`
 - `CD into your clone`
 - `python main.py` 
+
+----
