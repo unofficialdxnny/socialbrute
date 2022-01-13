@@ -26,6 +26,7 @@
 - requests 
 - webbrowser
 - time
+- string
 
 
 
