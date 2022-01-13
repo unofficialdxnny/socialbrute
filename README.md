@@ -17,6 +17,10 @@
 - Python 3.9+
 - getpass
 - date 
+- colorama
+
+
+
 
 
 
