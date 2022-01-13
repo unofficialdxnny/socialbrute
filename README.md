@@ -31,6 +31,12 @@
 - string
 - random
 
+---- 
+
+
+## All the passwords combinations given (in the `passwords.txt` file)
+
+
 
 
 
