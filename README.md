@@ -24,6 +24,7 @@
 - pyautogui 
 - os
 - requests 
+- webbrowser
 
 
 
