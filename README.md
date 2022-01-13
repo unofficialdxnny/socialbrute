@@ -6,3 +6,5 @@
 ## HOW TO USE?
 
 - `Clone the repository`
+- `CD into your clone`
+- `python main.py` 
