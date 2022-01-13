@@ -20,6 +20,8 @@
 - colorama
 - sys
 - time
+- keyboard
+
 
 
 
