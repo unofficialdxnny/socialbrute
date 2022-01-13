@@ -7,6 +7,12 @@
 
 - `Clone the repository`
 - `CD into your clone`
+- `pip install -r requirements.txt`
 - `python main.py` 
 
 ----
+
+## Requirements
+
+- Python 3.9+
+- 
