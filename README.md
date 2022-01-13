@@ -19,6 +19,7 @@
 - date 
 - colorama
 - sys
+- time
 
 
 
