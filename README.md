@@ -138,3 +138,12 @@ if keyboard.read_key() == "enter":
   time.sleep(2)
 
   ```
+
+Records coordinates for password box
+```py
+
+if keyboard.read_key() == "enter":
+  passwordbar = pag.position()
+  print(f"Cords captured: {passwordbar}")
+  time.sleep(5)
+```
