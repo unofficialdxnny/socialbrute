@@ -255,8 +255,7 @@ print(d2d)
 ##open the url again
 webbrowser.open(url)
 
-
-chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+## chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
 
 
 
@@ -265,12 +264,13 @@ chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
         # move to username box
 pag.moveTo(usernamebar[0], usernamebar[1], 0.5)
 pag.click()
+pag.press("ctrl + a + backspace")
+keyboard.write(username)
 time.sleep(2)
 
 
 
 
-keyboard.write(username)
 
 
 
@@ -284,11 +284,13 @@ time.sleep(2)
 
 
 
-## Credits to JaxsonR for giving this code
+
 def startPasting():
   time.sleep(5) # time before starting the paste sequence
   text = open('passwords.txt')
   for each_line in text:
+    pag.press("ctrl + a + backspace")
+    time.sleep(2)
     pag.typewrite(each_line)
     pag.press("enter")
   text.close()
