@@ -112,3 +112,19 @@ today = date.today()
 d2 = today.strftime("%B %d, %Y")
 
 print(d2)
+
+```
+
+
+
+Typewriter effect
+```py
+
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.1)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type('Program launched successfully today @ ')
+```
