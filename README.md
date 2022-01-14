@@ -160,3 +160,10 @@ time.sleep(2)
 
 keyboard.write(username)
 ```
+Goes to password box
+```py
+
+pag.moveTo(passwordbar[0], passwordbar[1], 0.5)
+pag.click()
+time.sleep(2)
+```
