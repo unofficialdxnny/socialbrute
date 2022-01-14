@@ -284,7 +284,7 @@ time.sleep(2)
 
 
 
-
+## Credits to JaxsonR for giving this code
 def startPasting():
   time.sleep(5) # time before starting the paste sequence
   text = open('passwords.txt')
