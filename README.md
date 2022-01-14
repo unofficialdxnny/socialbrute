@@ -43,7 +43,10 @@ pip install requirements.txt
 
 ```
 
-```python main.py```
+```
+python main.py
+
+```
 
 
 
