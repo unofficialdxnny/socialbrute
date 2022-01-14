@@ -28,7 +28,10 @@
 ## Usage
 ----
 
-```git clone https://github.com/unofficialdxnny/socialbrute```
+```
+git clone https://github.com/unofficialdxnny/socialbrute
+
+```
 
 ``` cd socialbrute ```
 
