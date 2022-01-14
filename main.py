@@ -214,6 +214,25 @@ if keyboard.read_key() == "enter":
   time.sleep(5)
 
   
+
+  ## typewriter effect
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.1)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type("Press Enter when your mouse is over the Login/submit area \n")
+
+
+
+
+if keyboard.read_key() == "enter":
+  login = pag.position()
+  print(f"Cords captured: {login}")
+  time.sleep(5)
+
+
 os.system("taskkill /im chrome.exe /f")
 
 
@@ -269,10 +288,35 @@ time.sleep(2)
 
 keyboard.write(username)
 
+
+p1 = 123456
         # move to password box
 pag.moveTo(passwordbar[0], passwordbar[1], 0.5)
 pag.click()
+keyboard.write(p1)
 time.sleep(2)
+
+
+pag.moveTo(login[0], login[1], 0.5)
+pag.click()
+time.sleep(2)
+
+
+
+p2 = password
+
+pag.moveTo(passwordbar[0], passwordbar[1], 0.5)
+pag.click()
+keyboard.write(p2)
+time.sleep(2)
+
+
+pag.moveTo(login[0], login[1], 0.5)
+pag.click()
+time.sleep(2)
+
+
+
 
 with open(passwords.txt, 'r', encoding='UTF-8') as file:
     while (line := file.readline().rstrip()):
