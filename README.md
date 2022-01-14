@@ -33,7 +33,10 @@ git clone https://github.com/unofficialdxnny/socialbrute
 
 ```
 
-``` cd socialbrute ```
+``` 
+cd socialbrute
+
+```
 
 ```pip install requirements.txt```
 
