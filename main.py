@@ -141,7 +141,6 @@ os.system('color 0b')
 os.system('color 0A') 
 
 
-webbrowser.open(url)
 
 os.system('color 0b') 
 os.system('color 0A') 
@@ -174,6 +173,8 @@ def type(text):
     sys.stdout.write(char)
     sys.stdout.flush()
 type('I have just opened your webpage \n ')
+
+webbrowser.open(url)
 
 
 ## typewriter effect
@@ -252,7 +253,7 @@ type('Successfully started today @ ')
 print(d2d)
 
 ##open the url again
-webdriver.open(url)
+webbrowser.open(url)
 
 
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
@@ -272,11 +273,10 @@ time.sleep(2)
 keyboard.write(username)
 
 
-p1 = 123456
+
         # move to password box
 pag.moveTo(passwordbar[0], passwordbar[1], 0.5)
 pag.click()
-keyboard.write(p1)
 time.sleep(2)
 
 
@@ -289,7 +289,7 @@ def startPasting():
   time.sleep(5) # time before starting the paste sequence
   text = open('passwords.txt')
   for each_line in text:
-    pyautogyui.typewrite(each_line)
-    pyautogui.press("enter")
+    pag.typewrite(each_line)
+    pag.press("enter")
   text.close()
-startPasing()
+startPasting()
