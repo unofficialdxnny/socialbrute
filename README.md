@@ -82,4 +82,21 @@ print("""
 ```
 
 
+The modules that are imported and wil be used
+```py
 
+import getpass
+from datetime import date 
+from colorama import Fore, Back, Style
+import sys
+from time import sleep
+import keyboard
+import pyautogui as pag
+import os
+import requests 
+import webbrowser
+import time
+import string
+import random
+
+```
