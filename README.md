@@ -147,3 +147,16 @@ if keyboard.read_key() == "enter":
   print(f"Cords captured: {passwordbar}")
   time.sleep(5)
 ```
+
+Goes to the username box
+```py
+
+pag.moveTo(usernamebar[0], usernamebar[1], 0.5)
+pag.click()
+time.sleep(2)
+
+
+
+
+keyboard.write(username)
+```
