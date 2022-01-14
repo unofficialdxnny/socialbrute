@@ -100,3 +100,15 @@ import string
 import random
 
 ```
+
+
+
+ Gets system time
+```py
+
+today = date.today()
+
+## date format
+d2 = today.strftime("%B %d, %Y")
+
+print(d2)
