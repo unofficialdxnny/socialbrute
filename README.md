@@ -6,6 +6,7 @@
 </p>
 
 ## HOW TO USE?
+----
 
 - `Clone the repository`
 - `CD into your clone`
@@ -15,6 +16,7 @@
 ----
 
 ## Requirements
+----
 
 - Python 3.9+
 - getpass
@@ -34,7 +36,15 @@
 ---- 
 
 ## Usage
+----
 
+```git clone https://github.com/unofficialdxnny/socialbrute```
+
+``` cd socialbrute ```
+
+```pip install requirements.txt```
+
+```python main.py```
 
 
 
