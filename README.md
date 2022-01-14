@@ -128,3 +128,13 @@ def type(text):
     sys.stdout.flush()
 type('Program launched successfully today @ ')
 ```
+
+Records than prints the username box coordinates
+```py
+
+if keyboard.read_key() == "enter":
+  usernamebar = pag.position()
+  print(f"Cords captured: {usernamebar}")
+  time.sleep(2)
+
+  ```
