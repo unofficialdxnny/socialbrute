@@ -197,13 +197,13 @@ def type(text):
     sleep(0.1)
     sys.stdout.write(char)
     sys.stdout.flush()
-type("Press Enter when your mouse is over the password area \n")
+type("Press Enter when your mouse is over the tryagain button \n")
 
 
 
 
 if keyboard.read_key() == "enter":
-  passwordbar = pag.position()
-  print(f"Cords captured: {passwordbar}")
+  tryagain = pag.position()
+  print(f"Cords captured: {tryagain}")
   time.sleep(5)
 ```
