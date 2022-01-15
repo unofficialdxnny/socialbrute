@@ -264,7 +264,8 @@ webbrowser.open(url)
         # move to username box
 pag.moveTo(usernamebar[0], usernamebar[1], 0.5)
 pag.click()
-pag.press("ctrl + a + backspace")
+pag.press("ctrl + a")
+pag.press("backspace")
 keyboard.write(username)
 time.sleep(2)
 
@@ -289,9 +290,12 @@ def startPasting():
   time.sleep(5) # time before starting the paste sequence
   text = open('passwords.txt')
   for each_line in text:
-    pag.press("ctrl + a + backspace")
     time.sleep(2)
+    pag.press("ctrl + a")
+    time.sleep(2)
+    pag.press("backspace")
     pag.typewrite(each_line)
+    time.sleep(2)
     pag.press("enter")
   text.close()
 startPasting()
