@@ -49,6 +49,10 @@ python main.py
 ```
 
 
+<p align="center">
+  <img src="disclaimer.png">
+</p>
+
 
 
 ## Code Explanation
