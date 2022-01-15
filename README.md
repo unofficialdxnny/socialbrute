@@ -207,3 +207,9 @@ if keyboard.read_key() == "enter":
   print(f"Cords captured: {tryagain}")
   time.sleep(5)
 ```
+
+Than below the `pag.press(enter)` paste this
+```py
+pag.moveTo(tryagain[0], tryagain[1], 0.5)
+pag.click()
+```
