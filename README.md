@@ -168,3 +168,20 @@ pag.moveTo(passwordbar[0], passwordbar[1], 0.5)
 pag.click()
 time.sleep(2)
 ```
+
+Types in passwords from list
+```py
+def startPasting():
+  time.sleep(5) # time before starting the paste sequence
+  text = open('passwords.txt')
+  for each_line in text:
+    time.sleep(2)
+    pag.press("ctrl + a")
+    time.sleep(2)
+    pag.press("backspace")
+    pag.typewrite(each_line)
+    time.sleep(2)
+    pag.press("enter")
+  text.close()
+startPasting()
+```
