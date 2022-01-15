@@ -1,6 +1,8 @@
 <h1 align="center">SocialBrute</h1>
 <p align="center">This is a bruteforce attacker made in Python. Any misuse is beyond my responsibility this is for educational purposes only</p>
 
+##### NOTE: YOU CAN ALTER THE CODE FOR OTHER SITES AS IT MAY COME UP WITH A POPUP EVERYTIME ITS WRONG BUT I WILL ADD THSES FEATURES IN NEWER VERSIONS
+
 <p align="center">
   <img src="BANNER.png">
 </p>
