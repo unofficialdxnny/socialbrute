@@ -187,3 +187,23 @@ def startPasting():
   text.close()
 startPasting()
 ```
+
+Incase you get a popup everytime you type in a incorrect code add this snippet below the code where it records coordinates for password
+
+```py
+def type(text):
+  words = text
+  for char in words:
+    sleep(0.1)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type("Press Enter when your mouse is over the password area \n")
+
+
+
+
+if keyboard.read_key() == "enter":
+  passwordbar = pag.position()
+  print(f"Cords captured: {passwordbar}")
+  time.sleep(5)
+```
