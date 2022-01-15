@@ -190,6 +190,10 @@ startPasting()
 
 Incase you get a popup everytime you type in a incorrect code add this snippet below the code where it records coordinates for password
 
+<p align="center">
+  <img src="https://imgur.com/csUacUd.png">
+</p>
+
 ```py
 def type(text):
   words = text
