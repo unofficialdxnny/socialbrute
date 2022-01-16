@@ -217,7 +217,7 @@ if keyboard.read_key() == "enter":
   
 
 
-os.system("taskkill /im chrome.exe /f")
+## os.system("taskkill /im chrome.exe /f")
 
 
 ## typewriter effect
@@ -253,7 +253,8 @@ type('Successfully started today @ ')
 print(d2d)
 
 ##open the url again
-webbrowser.open(url)
+
+## webbrowser.open(url)
 
 ## chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
 
@@ -265,7 +266,9 @@ webbrowser.open(url)
 pag.moveTo(usernamebar[0], usernamebar[1], 0.5)
 pag.click()
 pag.press("ctrl + a")
+time.sleep(2)
 pag.press("backspace")
+time.sleep(2)
 keyboard.write(username)
 time.sleep(2)
 
@@ -299,3 +302,4 @@ def startPasting():
     pag.press("enter")
   text.close()
 startPasting()
+
