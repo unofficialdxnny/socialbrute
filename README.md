@@ -8,6 +8,8 @@
 </p>
 
 
+#### DONT USE CODE WITHOUT GIVING CREDITS... DONT BE NOOB
+
 
 ## Requirements
 ----
