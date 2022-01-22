@@ -295,10 +295,8 @@ def startPasting():
   for each_line in text:
     time.sleep(2)
     pag.press("ctrl + a")
-    time.sleep(2)
     pag.press("backspace")
     pag.typewrite(each_line)
-    time.sleep(2)
     pag.press("enter")
   text.close()
 startPasting()
