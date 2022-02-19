@@ -19,16 +19,29 @@ import string
 import random
 
 
+
+class bcolors:
+    HEADER = '\033[32m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
+
+
 ## when the program starts it clears the terminal
 os.system('cls')
 
 
 
 print("""
-
                   
                   
-
          
             /££££££                      /££           /££ /£££££££                        /££              
            /££__  ££                    |__/          | ££| ££__  ££                      | ££              
@@ -42,21 +55,10 @@ print("""
                                                                    Author: unofficialdxnny
                                                                        Version: 1.0.0                               
                                                                                                   
-
-
 """)
 
 ## background color is black(0) and the text is green(A)
-os.system('color 0b') 
-os.system('color 0A') 
-os.system('color 0b') 
-os.system('color 0A') 
-os.system('color 0b') 
-os.system('color 0A') 
-os.system('color 0b') 
-os.system('color 0A') 
-os.system('color 0b') 
-os.system('color 0A') 
+
 
 
 ## new linee
@@ -97,6 +99,23 @@ type('Program launched successfully today @ ')
 
 ## print the final time
 print(d2)
+
+
+
+import sys
+import time
+
+
+words = """
+
+\033[93m                      Remember With Great Power Comes Great Responsibilities!
+
+
+"""
+for char in words:
+    sleep(0.1)
+    sys.stdout.write(char)
+    sys.stdout.flush()
 
 os.system('color 0b') 
 os.system('color 0A') 
@@ -300,4 +319,3 @@ def startPasting():
     pag.press("enter")
   text.close()
 startPasting()
-
